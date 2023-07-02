@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>Files</title>
+</head>
+
+<body>
+    <!-- Start Main  -->
+    <div class="main d-flex">
+        <div class="aside text-start p-2 position-relative">
+            <h3 class="position-relative text-center">Malik</h3>
+            <ul class="list-unstyled">
+                <li><a class="d-flex align-items-center" href="dashboard.html"><i class="fa-solid fa-chart-bar"></i><span
+                            class="d-none d-md-block">Dashboard</span></a>
+                </li>
+                <li><a class="d-flex align-items-center" href="setting.html"><i class="fa-solid fa-gear"></i><span
+                            class="d-none d-md-block">Settings</span></a></li>
+                <li><a class="d-flex align-items-center" href="Profile.html"><i class="fa-regular fa-user"></i><span
+                            class="d-none d-md-block">Profile</span></a></li>
+                <li><a class="d-flex align-items-center" href="projects.html"><i class="fa-solid fa-share-nodes"></i><span
+                            class="d-none d-md-block">projects</span></a></li>
+                <li><a class="d-flex align-items-center" href="courses.html"><i class="fa-solid fa-graduation-cap"></i><span
+                            class="d-none d-md-block">Courses</span></a></li>
+                <li><a class="d-flex align-items-center" href="friends.html"><i class="fa-regular fa-circle-user"></i><span
+                            class="d-none d-md-block">Friends</span></a></li>
+                <li><a class="active d-flex align-items-center" href="files.html"><i class="fa-regular fa-file"></i><span
+                            class="d-none d-md-block">Files</span></a></li>
+                <li><a class="d-flex align-items-center" href="plans.html"><i class="fa-solid fa-credit-card"></i><span
+                            class="d-none d-md-block">Plans</span></a></li>
+            </ul>
+        </div>
+        <div class="main-dash">
+            <div class="navbar d-flex align-items-center justify-content-between">
+                <div class="search position-relative">
+                    <input type="text" placeholder="Search Keyword">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                </div>
+                <div class="navs">
+                    <i class="fa-regular fa-bell nav-bell position-relative"></i>
+                    <img src="images/avatar01.png" alt="avatar">
+                </div>
+            </div>
+            <div class="content">
+                <h3 class="main-head-text">Files</h3>
+                <div class="plans d-flex gap-2 mt-4">
+                    <div class="plans-state bg-white p-3 rounded">
+                        <h4 class="fw-bold mb-3">Files Statistics</h4>
+                        <div class="box p-2 d-flex align-items-center rounded mb-3">
+                            <div class="icon d-flex justify-content-center align-items-center me-2 blue"><i
+                                    class="fa-regular fa-file-pdf"></i></div>
+                            <div class="text d-flex justify-content-between align-items-center">
+                                <div>
+                                    <p class="mb-0">PDF Files</p>
+                                    <span class="fs-13 text-secondary">130 Files</span>
+                                </div>
+                                <span class="text-secondary fs-13">6.5GB</span>
+                            </div>
+                        </div>
+                        <div class="box p-2 d-flex align-items-center rounded mb-3">
+                            <div class="icon d-flex justify-content-center align-items-center me-2 green"><i
+                                    class="fa-regular fa-images"></i></div>
+                            <div class="text d-flex justify-content-between align-items-center">
+                                <div>
+                                    <p class="mb-0">Images</p>
+                                    <span class="fs-13 text-secondary">115 Files</span>
+                                </div>
+                                <span class="text-secondary fs-13">3.5GB</span>
+                            </div>
+                        </div>
+                        <div class="box p-2 d-flex align-items-center rounded mb-3">
+                            <div class="icon d-flex justify-content-center align-items-center me-2 red"><i
+                                    class="fa-regular fa-file-word"></i></div>
+                            <div class="text d-flex justify-content-between align-items-center">
+                                <div>
+                                    <p class="mb-0">Word Files</p>
+                                    <span class="fs-13 text-secondary">110 Files</span>
+                                </div>
+                                <span class="text-secondary fs-13">3.2GB</span>
+                            </div>
+                        </div>
+                        <div class="box p-2 d-flex align-items-center rounded mb-3">
+                            <div class="icon d-flex justify-content-center align-items-center me-2 yellow"><i
+                                    class="fa-solid fa-file-csv"></i></div>
+                            <div class="text d-flex justify-content-between align-items-center">
+                                <div>
+                                    <p class="mb-0">CSV Files</p>
+                                    <span class="fs-13 text-secondary">99 Files</span>
+                                </div>
+                                <span class="text-secondary fs-13">2.9GB</span>
+                            </div>
+                        </div>
+                        <a href="#" class="upload m-auto d-flex align-items-center rounded"><i
+                                class="fa-solid fa-angles-up"></i><span class="ms-2">Upload</span></a>
+                    </div>
+                    <div class="plans-container">
+                        <div class="plan-box p-2 bg-white rounded">
+                            <div class="text-secondary"><i class="fa-solid fa-download"></i></div>
+                            <div class="text-center">
+                                <img src="images/file-pdf.png" alt="pdf-file" class="mb-3">
+                                <p class="mb-0 fs-14">my-file.pdf</p>
+                            </div>
+                            <p class="fs-13 mb-2 mt-3 text-secondary">Malik</p>
+                            <div class="box pt-2 d-flex justify-content-between align-items-center">
+                                <span class="text-secondary fs-12">20/06/2020</span>
+                                <span class="text-secondary fs-12">5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="plan-box p-2 bg-white rounded">
+                            <div class="text-secondary"><i class="fa-solid fa-download"></i></div>
+                            <div class="text-center">
+                                <img src="images/file-aiv.png" alt="pdf-file" class="mb-3">
+                                <p class="mb-0 fs-14">my-file.avi</p>
+                            </div>
+                            <p class="fs-13 mb-2 mt-3 text-secondary">Admin</p>
+                            <div class="box pt-2 d-flex justify-content-between align-items-center">
+                                <span class="text-secondary fs-12">16/05/2021</span>
+                                <span class="text-secondary fs-12">12.5MB</span>
+                            </div>
+                        </div>
+                        <div class="plan-box p-2 bg-white rounded">
+                            <div class="text-secondary"><i class="fa-solid fa-download"></i></div>
+                            <div class="text-center">
+                                <img src="images/file-zip.png" alt="pdf-file" class="mb-3">
+                                <p class="mb-0 fs-14">my-file.zip</p>
+                            </div>
+                            <p class="fs-13 mb-2 mt-3 text-secondary">Uploader</p>
+                            <div class="box pt-2 d-flex justify-content-between align-items-center">
+                                <span class="text-secondary fs-12">20/06/2020</span>
+                                <span class="text-secondary fs-12">2.7MB</span>
+                            </div>
+                        </div>
+                        <div class="plan-box p-2 bg-white rounded">
+                            <div class="text-secondary"><i class="fa-solid fa-download"></i></div>
+                            <div class="text-center">
+                                <img src="images/file-psd.png" alt="pdf-file" class="mb-3">
+                                <p class="mb-0 fs-14">my-file.psd</p>
+                            </div>
+                            <p class="fs-13 mb-2 mt-3 text-secondary">Osama</p>
+                            <div class="box pt-2 d-flex justify-content-between align-items-center">
+                                <span class="text-secondary fs-12">20/06/2020</span>
+                                <span class="text-secondary fs-12">15.1MB</span>
+                            </div>
+                        </div>
+                        <div class="plan-box p-2 bg-white rounded">
+                            <div class="text-secondary"><i class="fa-solid fa-download"></i></div>
+                            <div class="text-center">
+                                <img src="images/file-dll.png" alt="pdf-file" class="mb-3">
+                                <p class="mb-0 fs-14">my-file.dll</p>
+                            </div>
+                            <p class="fs-13 mb-2 mt-3 text-secondary">Coder</p>
+                            <div class="box pt-2 d-flex justify-content-between align-items-center">
+                                <span class="text-secondary fs-12">20/06/2020</span>
+                                <span class="text-secondary fs-12">2.2MB</span>
+                            </div>
+                        </div>
+                        <div class="plan-box p-2 bg-white rounded">
+                            <div class="text-secondary"><i class="fa-solid fa-download"></i></div>
+                            <div class="text-center">
+                                <img src="images/file-pdf.png" alt="pdf-file" class="mb-3">
+                                <p class="mb-0 fs-14">my-file.pdf</p>
+                            </div>
+                            <p class="fs-13 mb-2 mt-3 text-secondary">designer</p>
+                            <div class="box pt-2 d-flex justify-content-between align-items-center">
+                                <span class="text-secondary fs-12">20/06/2020</span>
+                                <span class="text-secondary fs-12">1.1MB</span>
+                            </div>
+                        </div>
+                        <div class="plan-box p-2 bg-white rounded">
+                            <div class="text-secondary"><i class="fa-solid fa-download"></i></div>
+                            <div class="text-center">
+                                <img src="images/file-dll.png" alt="pdf-file" class="mb-3">
+                                <p class="mb-0 fs-14">my-file.dll</p>
+                            </div>
+                            <p class="fs-13 mb-2 mt-3 text-secondary">Coder</p>
+                            <div class="box pt-2 d-flex justify-content-between align-items-center">
+                                <span class="text-secondary fs-12">20/06/2020</span>
+                                <span class="text-secondary fs-12">2.2MB</span>
+                            </div>
+                        </div>
+                        <div class="plan-box p-2 bg-white rounded">
+                            <div class="text-secondary"><i class="fa-solid fa-download"></i></div>
+                            <div class="text-center">
+                                <img src="images/file-psd.png" alt="pdf-file" class="mb-3">
+                                <p class="mb-0 fs-14">my-file.psd</p>
+                            </div>
+                            <p class="fs-13 mb-2 mt-3 text-secondary">Designer</p>
+                            <div class="box pt-2 d-flex justify-content-between align-items-center">
+                                <span class="text-secondary fs-12">20/06/2020</span>
+                                <span class="text-secondary fs-12">1.1MB</span>
+                            </div>
+                        </div>
+                        <div class="plan-box p-2 bg-white rounded">
+                            <div class="text-secondary"><i class="fa-solid fa-download"></i></div>
+                            <div class="text-center">
+                                <img src="images/file-pdf.png" alt="pdf-file" class="mb-3">
+                                <p class="mb-0 fs-14">my-file.pdf</p>
+                            </div>
+                            <p class="fs-13 mb-2 mt-3 text-secondary">Osama</p>
+                            <div class="box pt-2 d-flex justify-content-between align-items-center">
+                                <span class="text-secondary fs-12">20/06/2020</span>
+                                <span class="text-secondary fs-12">15.1MB</span>
+                            </div>
+                        </div>
+                        <div class="plan-box p-2 bg-white rounded">
+                            <div class="text-secondary"><i class="fa-solid fa-download"></i></div>
+                            <div class="text-center">
+                                <img src="images/file-zip.png" alt="pdf-file" class="mb-3">
+                                <p class="mb-0 fs-14">my-file.zip</p>
+                            </div>
+                            <p class="fs-13 mb-2 mt-3 text-secondary">Elzero</p>
+                            <div class="box pt-2 d-flex justify-content-between align-items-center">
+                                <span class="text-secondary fs-12">20/06/2020</span>
+                                <span class="text-secondary fs-12">5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="plan-box p-2 bg-white rounded">
+                            <div class="text-secondary"><i class="fa-solid fa-download"></i></div>
+                            <div class="text-center">
+                                <img src="images/file-zip.png" alt="pdf-file" class="mb-3">
+                                <p class="mb-0 fs-14">my-file.zip</p>
+                            </div>
+                            <p class="fs-13 mb-2 mt-3 text-secondary">Uploader</p>
+                            <div class="box pt-2 d-flex justify-content-between align-items-center">
+                                <span class="text-secondary fs-12">20/06/2020</span>
+                                <span class="text-secondary fs-12">2.7MB</span>
+                            </div>
+                        </div>
+                        <div class="plan-box p-2 bg-white rounded">
+                            <div class="text-secondary"><i class="fa-solid fa-download"></i></div>
+                            <div class="text-center">
+                                <img src="images/file-pdf.png" alt="pdf-file" class="mb-3">
+                                <p class="mb-0 fs-14">my-file.pdf</p>
+                            </div>
+                            <p class="fs-13 mb-2 mt-3 text-secondary">Malik</p>
+                            <div class="box pt-2 d-flex justify-content-between align-items-center">
+                                <span class="text-secondary fs-12">20/06/2020</span>
+                                <span class="text-secondary fs-12">5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="plan-box p-2 bg-white rounded">
+                            <div class="text-secondary"><i class="fa-solid fa-download"></i></div>
+                            <div class="text-center">
+                                <img src="images/file-aiv.png" alt="pdf-file" class="mb-3">
+                                <p class="mb-0 fs-14">my-file.avi</p>
+                            </div>
+                            <p class="fs-13 mb-2 mt-3 text-secondary">Admin</p>
+                            <div class="box pt-2 d-flex justify-content-between align-items-center">
+                                <span class="text-secondary fs-12">20/06/2020</span>
+                                <span class="text-secondary fs-12">12.5MB</span>
+                            </div>
+                        </div>
+                        <div class="plan-box p-2 bg-white rounded">
+                            <div class="text-secondary"><i class="fa-solid fa-download"></i></div>
+                            <div class="text-center">
+                                <img src="images/file-zip.png" alt="pdf-file" class="mb-3">
+                                <p class="mb-0 fs-14">my-file.zip</p>
+                            </div>
+                            <p class="fs-13 mb-2 mt-3 text-secondary">Uplader</p>
+                            <div class="box pt-2 d-flex justify-content-between align-items-center">
+                                <span class="text-secondary fs-12">20/06/2020</span>
+                                <span class="text-secondary fs-12">2.7MB</span>
+                            </div>
+                        </div>
+                        <div class="plan-box p-2 bg-white rounded">
+                            <div class="text-secondary"><i class="fa-solid fa-download"></i></div>
+                            <div class="text-center">
+                                <img src="images/file-psd.png" alt="pdf-file" class="mb-3">
+                                <p class="mb-0 fs-14">my-file.psd</p>
+                            </div>
+                            <p class="fs-13 mb-2 mt-3 text-secondary">Osama</p>
+                            <div class="box pt-2 d-flex justify-content-between align-items-center">
+                                <span class="text-secondary fs-12">20/06/2020</span>
+                                <span class="text-secondary fs-12">15.1MB</span>
+                            </div>
+                        </div>
+                        <div class="plan-box p-2 bg-white rounded">
+                            <div class="text-secondary"><i class="fa-solid fa-download"></i></div>
+                            <div class="text-center">
+                                <img src="images/file-dll.png" alt="pdf-file" class="mb-3">
+                                <p class="mb-0 fs-14">my-file.dll</p>
+                            </div>
+                            <p class="fs-13 mb-2 mt-3 text-secondary">Coder</p>
+                            <div class="box pt-2 d-flex justify-content-between align-items-center">
+                                <span class="text-secondary fs-12">20/06/2020</span>
+                                <span class="text-secondary fs-12">2.2MB</span>
+                            </div>
+                        </div>
+                        <div class="plan-box p-2 bg-white rounded">
+                            <div class="text-secondary"><i class="fa-solid fa-download"></i></div>
+                            <div class="text-center">
+                                <img src="images/file-zip.png" alt="pdf-file" class="mb-3">
+                                <p class="mb-0 fs-14">my-file.zip</p>
+                            </div>
+                            <p class="fs-13 mb-2 mt-3 text-secondary">Malik</p>
+                            <div class="box pt-2 d-flex justify-content-between align-items-center">
+                                <span class="text-secondary fs-12">20/06/2020</span>
+                                <span class="text-secondary fs-12">5.5MB</span>
+                            </div>
+                        </div>
+                        <div class="plan-box p-2 bg-white rounded">
+                            <div class="text-secondary"><i class="fa-solid fa-download"></i></div>
+                            <div class="text-center">
+                                <img src="images/file-aiv.png" alt="pdf-file" class="mb-3">
+                                <p class="mb-0 fs-14">my-file.avi</p>
+                            </div>
+                            <p class="fs-13 mb-2 mt-3 text-secondary">Admin</p>
+                            <div class="box pt-2 d-flex justify-content-between align-items-center">
+                                <span class="text-secondary fs-12">20/06/2020</span>
+                                <span class="text-secondary fs-12">12.5MB</span>
+                            </div>
+                        </div>
+                        <div class="plan-box p-2 bg-white rounded">
+                            <div class="text-secondary"><i class="fa-solid fa-download"></i></div>
+                            <div class="text-center">
+                                <img src="images/file-zip.png" alt="pdf-file" class="mb-3">
+                                <p class="mb-0 fs-14">my-file.zip</p>
+                            </div>
+                            <p class="fs-13 mb-2 mt-3 text-secondary">Uploader</p>
+                            <div class="box pt-2 d-flex justify-content-between align-items-center">
+                                <span class="text-secondary fs-12">20/06/2020</span>
+                                <span class="text-secondary fs-12">2.7MB</span>
+                            </div>
+                        </div>
+                        <div class="plan-box p-2 bg-white rounded">
+                            <div class="text-secondary"><i class="fa-solid fa-download"></i></div>
+                            <div class="text-center">
+                                <img src="images/file-psd.png" alt="pdf-file" class="mb-3">
+                                <p class="mb-0 fs-14">my-file.psd</p>
+                            </div>
+                            <p class="fs-13 mb-2 mt-3 text-secondary">osama</p>
+                            <div class="box pt-2 d-flex justify-content-between align-items-center">
+                                <span class="text-secondary fs-12">20/06/2020</span>
+                                <span class="text-secondary fs-12">5.5MB</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <!-- End Main  -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

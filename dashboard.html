@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <!-- Start Main  -->
+    <div class="main d-flex">
+
+
+        <div class="aside text-start p-2 position-relative">
+            <h3 class="position-relative text-center">Malik</h3>
+            <ul class="list-unstyled">
+                <li><a class="active d-flex align-items-center" href="dashboard.html"><i class="fa-solid fa-chart-bar"></i><span
+                            class="d-none d-md-block">Dashboard</span></a>
+                </li>
+                <li><a class="d-flex align-items-center" href="setting.html"><i class="fa-solid fa-gear"></i><span
+                            class="d-none d-md-block">Settings</span></a></li>
+                <li><a class=" d-flex align-items-center" href="Profile.html"><i class="fa-regular fa-user"></i><span
+                            class="d-none d-md-block">Profile</span></a></li>
+                <li><a class="d-flex align-items-center" href="projects.html"><i class="fa-solid fa-share-nodes"></i><span
+                            class="d-none d-md-block">projects</span></a></li>
+                <li><a class="d-flex align-items-center" href="courses.html"><i class="fa-solid fa-graduation-cap"></i><span
+                            class="d-none d-md-block">Courses</span></a></li>
+                <li><a class="d-flex align-items-center" href="friends.html"><i class="fa-regular fa-circle-user"></i><span
+                            class="d-none d-md-block">Friends</span></a></li>
+                <li><a class=" d-flex align-items-center" href="files.html"><i class="fa-regular fa-file"></i><span
+                            class="d-none d-md-block">Files</span></a></li>
+                <li><a class="d-flex align-items-center" href="plans.html"><i class="fa-solid fa-credit-card"></i><span
+                            class="d-none d-md-block">Plans</span></a></li>
+            </ul>
+        </div>
+        <div class="main-dash">
+            <div class="navbar d-flex align-items-center justify-content-between">
+                <div class="search position-relative">
+                    <input type="text" placeholder="Search Keyword">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                </div>
+                <div class="navs">
+                    <i class="fa-regular fa-bell nav-bell position-relative"></i>
+                    <img src="images/avatar01.png" alt="avatar">
+                </div>
+            </div>
+            <div class="content">
+                <h3 class="main-head-text">Dashboard</h3>
+                <div class="wrapper mt-4">
+                    <div class="welcome bg-white rounded">
+                        <div class="head d-flex justify-content-between p-3 position-relative">
+                            <div>
+                                <h4 class="fw-bold">Welcome</h4>
+                                <p class="text-secondary fs-14">Malik</p>
+                            </div>
+                            <img src="images/landing.png" alt="landing" class="head-img">
+                            <img src="images/avatar03.png" alt="avatar" class="avatar">
+                        </div>
+                        <div class="statistics d-flex justify-content-evenly mt-5 pt-4 pb-4">
+                            <div class="text-center">
+                                <h6>Abdulmalik Kattan</h6>
+                                <p class="text-secondary m-0">Developer</p>
+                            </div>
+                            <div class="text-center">
+                                <h6>80</h6>
+                                <p class="text-secondary m-0">Projects</p>
+                            </div>
+                            <div class="text-center">
+                                <h6>$8500</h6>
+                                <p class="text-secondary m-0">Earned</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-end  p-3">
+                            <a href="#" class="btn btn-primary">Profile</a>
+                        </div>
+                    </div>
+                    <div class="draft bg-white p-3 rounded">
+                        <h4 class="fw-bold">Quick Draft</h4>
+                        <p class="text-secondary fs-14">Write A Draft For Your Ideas</p>
+                        <input type="text" class="w-100 p-2 mb-4" placeholder="Title">
+                        <textarea class="w-100 p-2" placeholder="Your Thought"></textarea>
+                        <div class="d-flex justify-content-end  p-3">
+                            <a href="#" class="btn btn-primary">Profile</a>
+                        </div>
+                    </div>
+                    <div class="targets rounded bg-white p-3">
+                        <h4 class="fw-bold">Yearly Targets</h4>
+                        <p class="text-secondary fs-14">Targets Of The Year</p>
+                        <div class="box blue d-flex gap-2 align-items-center mb-3">
+                            <div class="icon d-flex justify-content-center align-items-center rounded"><i
+                                    class="fa-solid fa-dollar-sign"></i></div>
+                            <div class="percent">
+                                <p class="fs-14 text-secondary mb-1">Money</p>
+                                <h6>$20.000</h6>
+                                <div><span style="width:80%" class="d-block position-relative"><span
+                                            class="fs-14">80%</span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box yellow d-flex gap-2 align-items-center mb-3">
+                            <div class="icon d-flex justify-content-center align-items-center rounded"><i
+                                    class="fa-solid fa-dollar-sign"></i></div>
+                            <div class="percent">
+                                <p class="fs-14 text-secondary mb-1">Money</p>
+                                <h6>$20.000</h6>
+                                <div><span style="width:55%" class="d-block position-relative"><span
+                                            class="fs-14">55%</span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box green d-flex gap-2 align-items-center">
+                            <div class="icon d-flex justify-content-center align-items-center rounded"><i
+                                    class="fa-solid fa-dollar-sign"></i></div>
+                            <div class="percent">
+                                <p class="fs-14 text-secondary mb-1">Money</p>
+                                <h6>$20.000</h6>
+                                <div><span style="width:75%" class="d-block position-relative"><span
+                                            class="fs-14">75%</span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tickets bg-white p-3 rounded">
+                        <div>
+                            <h4 class="fw-bold">Tickets Statistics</h4>
+                            <p class="text-secondary fs-14">Every Thing About Support Tickets</p>
+                        </div>
+                        <div class="box d-flex flex-wrap gap-3">
+                            <div class="card yellow text-center p-3">
+                                <i class="fa-regular fa-rectangle-list mb-2"></i>
+                                <h3 class="mb-1 fw-bold">2500</h3>
+                                <span class="fs-14 text-secondary">Total</span>
+                            </div>
+                            <div class="card blue text-center p-3">
+                                <i class="fa-solid fa-spinner mb-2"></i>
+                                <h3 class="mb-1 fw-bold">500</h3>
+                                <span class="fs-14 text-secondary">Pending</span>
+                            </div>
+                            <div class="card green text-center p-3">
+                                <i class="fa-regular fa-circle-check mb-2"></i>
+                                <h3 class="mb-1 fw-bold">1900</h3>
+                                <span class="fs-14 text-secondary">Closed</span>
+                            </div>
+                            <div class="card red text-center p-3">
+                                <i class="fa-regular fa-rectangle-xmark mb-2"></i>
+                                <h3 class="mb-1 fw-bold">100</h3>
+                                <span class="fs-14 text-secondary">Deleted</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news bg-white p-3 rounded">
+                        <div class="mb-3 text-center text-md-start">
+                            <h4 class="fw-bold">Latest News</h4>
+                        </div>
+                        <div
+                            class="box d-flex align-items-center justify-content-between pb-3 mb-3 flex-md-row flex-column">
+                            <div class="d-flex align-items-center flex-md-row flex-column">
+                                <img src="images/avatar03.png" alt="sass" class="img-fluid rounded">
+                                <div class="text mt-2 mb-2 mt-md-0 mb-md-0">
+                                    <h4 class="mb-1 fs-6">Created SASS Section</h4>
+                                    <p class="text-secondary fs-11 mb-0">New SASS Examples & Tutorials</p>
+                                </div>
+                            </div>
+                            <span class="fs-10 p-2 rounded-pill">3 Days Ago</span>
+                        </div>
+                        <div
+                            class="box d-flex align-items-center justify-content-between pb-3 mb-3 flex-md-row flex-column">
+                            <div class="d-flex align-items-center flex-md-row flex-column">
+                                <img src="images/avatar04.png" alt="sass" class="img-fluid rounded">
+                                <div class="text mt-2 mb-2 mt-md-0 mb-md-0">
+                                    <h4 class="mb-1 fs-6">Changed The Design</h4>
+                                    <p class="text-secondary fs-11 mb-0">A Brand New Website Design</p>
+                                </div>
+                            </div>
+                            <span class="fs-10 p-2 rounded-pill">5 Days Ago</span>
+                        </div>
+                        <div
+                            class="box d-flex align-items-center justify-content-between pb-3 mb-3 flex-md-row flex-column">
+                            <div class="d-flex align-items-center flex-md-row flex-column">
+                                <img src="images/avatar05.png" alt="sass" class="img-fluid rounded">
+                                <div class="text mt-2 mb-2 mt-md-0 mb-md-0">
+                                    <h4 class="mb-1 fs-6">Team Increased</h4>
+                                    <p class="text-secondary fs-11 mb-0">3 Developers joined The Team</p>
+                                </div>
+                            </div>
+                            <span class="fs-10 p-2 rounded-pill">7 Days Ago</span>
+                        </div>
+                        <div class="box d-flex align-items-center justify-content-between pb-3 flex-md-row flex-column">
+                            <div class="d-flex align-items-center flex-md-row flex-column">
+                                <img src="images/avatar06.jpg" alt="sass" class="img-fluid rounded">
+                                <div class="text mt-2 mb-2 mt-md-0 mb-md-0">
+                                    <h4 class="mb-1 fs-6">Added Payment Gateway</h4>
+                                    <p class="text-secondary fs-11 mb-0">Many New Payment Gateaways Added</p>
+                                </div>
+                            </div>
+                            <span class="fs-10 p-2 rounded-pill">9 Days Ago</span>
+                        </div>
+
+                    </div>
+                    <div class="tasks bg-white p-3 rounded">
+                        <div class="mb-3">
+                            <h4 class="fw-bold">Latest Tasks</h4>
+                            <div class="box d-flex justify-content-between align-items-center mb-3 pb-3">
+                                <div class="text">
+                                    <h4 class="fs-6 mb-1 fw-bold">Record One New Video</h4>
+                                    <p class="text-secondary fs-13 mb-0">Record Python Create Exe Project</p>
+                                </div>
+                                <i class="fa-regular fa-trash-can"></i>
+                            </div>
+                            <div class="box d-flex justify-content-between align-items-center mb-3 pb-3">
+                                <div class="text">
+                                    <h4 class="fs-6 mb-1 fw-bold">Write Article</h4>
+                                    <p class="text-secondary fs-13 mb-0">Write Low Level vs High Level Languages</p>
+                                </div>
+                                <i class="fa-regular fa-trash-can"></i>
+                            </div>
+                            <div class="box d-flex justify-content-between align-items-center mb-3 pb-3">
+                                <div class="text">
+                                    <h4 class="fs-6 mb-1 fw-bold">Finish Project</h4>
+                                    <p class="text-secondary fs-13 mb-0">Publish Academy Programming Project</p>
+                                </div>
+                                <i class="fa-regular fa-trash-can"></i>
+                            </div>
+                            <div class="box d-flex justify-content-between align-items-center mb-3 pb-3 opacity-25">
+                                <div class="text">
+                                    <h4 class="fs-6 mb-1 fw-bold text-decoration-line-through">Attend The Meeting</h4>
+                                    <p class="text-secondary fs-13 mb-0 text-decoration-line-through">Attend The Project
+                                        Buisness Analysis Meeting
+                                    </p>
+                                </div>
+                                <i class="fa-regular fa-trash-can"></i>
+                            </div>
+                            <div class="box d-flex justify-content-between align-items-center">
+                                <div class="text">
+                                    <h4 class="fs-6 mb-1 fw-bold">Finish Lesson</h4>
+                                    <p class="text-secondary fs-13 mb-0">Finish Teaching New Box</p>
+                                </div>
+                                <i class="fa-regular fa-trash-can"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top-search bg-white p-3 rounded">
+                        <div class="mb-3">
+                            <h4 class=" fw-bold">Top Search Items</h4>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="text-secondary fs-14">Keyword</span>
+                                <span class="text-secondary fs-14">Search Count</span>
+                            </div>
+                        </div>
+                        <div class="box d-flex justify-content-between align-items-center mb-2">
+                            <p>Programming</p>
+                            <span class=" fs-12">220</span>
+                        </div>
+                        <div class="box d-flex justify-content-between align-items-center mb-2">
+                            <p>Javascript</p>
+                            <span class=" fs-12">180</span>
+                        </div>
+                        <div class="box d-flex justify-content-between align-items-center mb-2">
+                            <p>PHP</p>
+                            <span class=" fs-12">160</span>
+                        </div>
+                        <div class="box d-flex justify-content-between align-items-center mb-2">
+                            <p>Code</p>
+                            <span class=" fs-12">145</span>
+                        </div>
+                        <div class="box d-flex justify-content-between align-items-center mb-2">
+                            <p>Design</p>
+                            <span class=" fs-12">110</span>
+                        </div>
+                        <div class="box d-flex justify-content-between align-items-center">
+                            <p>Logic</p>
+                            <span class=" fs-12">95</span>
+                        </div>
+                    </div>
+                    <div class="uploads bg-white p-3 rounded">
+                        <div class="mb-3">
+                            <h4 class="fw-bold">Latest Uploads</h4>
+                        </div>
+                        <div class="box d-flex align-items-center justify-content-between pb-2 mb-2">
+                            <div class="d-flex align-items-center">
+                                <img src="images/file.png" alt="sass" class="img-fluid rounded">
+                                <div class="text">
+                                    <h4 class="mb-1 fs-6">my-file.pdf</h4>
+                                    <p class="text-secondary fs-11 mb-0">Malik</p>
+                                </div>
+                            </div>
+                            <span class="fs-10 p-2 rounded">2.9mb</span>
+                        </div>
+                        <div class="box d-flex align-items-center justify-content-between pb-2 mb-2">
+                            <div class="d-flex align-items-center">
+                                <img src="images/file-aiv.png" alt="sass" class="img-fluid rounded">
+                                <div class="text">
+                                    <h4 class="mb-1 fs-6">my-video-file.avi</h4>
+                                    <p class="text-secondary fs-11 mb-0">Admin</p>
+                                </div>
+                            </div>
+                            <span class="fs-10 p-2 rounded">4.9mb</span>
+                        </div>
+                        <div class="box d-flex align-items-center justify-content-between pb-2 mb-2">
+                            <div class="d-flex align-items-center">
+                                <img src="images/file-psd.png" alt="sass" class="img-fluid rounded">
+                                <div class="text">
+                                    <h4 class="mb-1 fs-6">my-psd-file.pdf</h4>
+                                    <p class="text-secondary fs-11 mb-0">Osama</p>
+                                </div>
+                            </div>
+                            <span class="fs-10 p-2 rounded">4.5mb</span>
+                        </div>
+                        <div class="box d-flex align-items-center justify-content-between pb-2 mb-2">
+                            <div class="d-flex align-items-center">
+                                <img src="images/file-zip.png" alt="sass" class="img-fluid rounded">
+                                <div class="text">
+                                    <h4 class="mb-1 fs-6">my-zip-file.pdf</h4>
+                                    <p class="text-secondary fs-11 mb-0">User</p>
+                                </div>
+                            </div>
+                            <span class="fs-10 p-2 rounded">8.9mb</span>
+                        </div>
+                        <div class="box d-flex align-items-center justify-content-between pb-2 mb-2">
+                            <div class="d-flex align-items-center">
+                                <img src="images/file-dll.png" alt="sass" class="img-fluid rounded">
+                                <div class="text">
+                                    <h4 class="mb-1 fs-6">my-dll-file.pdf</h4>
+                                    <p class="text-secondary fs-11 mb-0">Admin</p>
+                                </div>
+                            </div>
+                            <span class="fs-10 p-2 rounded">4.9mb</span>
+                        </div>
+                        <div class="box d-flex align-items-center justify-content-between">
+                            <div class="d-flex align-items-center">
+                                <img src="images/file-pdf.png" alt="sass" class="img-fluid rounded">
+                                <div class="text">
+                                    <h4 class="mb-1 fs-6">my-esp-file.pdf</h4>
+                                    <p class="text-secondary fs-11 mb-0">Designer</p>
+                                </div>
+                            </div>
+                            <span class="fs-10 p-2 rounded">8.9mb</span>
+                        </div>
+                    </div>
+                    <div class="last-project bg-white p-3 rounded position-relative">
+                        <div class="mb-3">
+                            <h4 class="fw-bold">Last Project Progress</h4>
+                        </div>
+                        <ul class="list-unstyled position-relative">
+                            <li class="d-flex align-items-center mt-2 done">Got The Projecct</li>
+                            <li class="d-flex align-items-center mt-2 done">Started The Projecct</li>
+                            <li class="d-flex align-items-center mt-2 done">The Projecct About To Finish</li>
+                            <li class="d-flex align-items-center mt-2 current">Test The Projecct</li>
+                            <li class="d-flex align-items-center mt-2">Finish The Projecct & Get Money</li>
+                        </ul>
+                        <img src="images/rocket.png" alt="rocket"
+                            class="position-absolute d-none d-md-block opacity-25">
+                    </div>
+                    <div class="reminders bg-white p-3 rounded">
+                        <div class="mb-3">
+                            <h4 class="fw-bold">Reminders</h4>
+                        </div>
+                        <div class="text blue ps-2 ms-4 mb-2 position-relative">
+                            <h4 class="mb-1 fs-6">Check My Tasks List</h4>
+                            <p class="text-secondary fs-11 mb-0">28/09/2022 - 12:00am</p>
+                        </div>
+                        <div class="text green ps-2 ms-4 mb-2 position-relative">
+                            <h4 class="mb-1 fs-6">Check My Projects</h4>
+                            <p class="text-secondary fs-11 mb-0">26/10/2022 - 12:00am</p>
+                        </div>
+                        <div class="text yellow ps-2 ms-4 mb-2 position-relative">
+                            <h4 class="mb-1 fs-6">Call All My Clients</h4>
+                            <p class="text-secondary fs-11 mb-0">5/11/2022 - 12:00am</p>
+                        </div>
+                        <div class="text red ps-2 ms-4 position-relative">
+                            <h4 class="mb-1 fs-6">Finish The Development Workshop</h4>
+                            <p class="text-secondary fs-11 mb-0">20/12/2022 - 12:00am</p>
+                        </div>
+                    </div>
+                    <div class="post bg-white p-3 rounded">
+                        <div class="mb-3">
+                            <h4 class="fw-bold">Latest Post</h4>
+                        </div>
+                        <div class="box d-flex align-items-center mb-2">
+                            <img src="images/avatar01.png" alt="avatar">
+                            <div class="text">
+                                <h4 class="mb-1 fs-6 fw-bold">Abdulmalik Kattan</h4>
+                                <p class="text-secondary fs-14 mb-0">About 3 Hours Ago</p>
+                            </div>
+                        </div>
+                        <div class="pt-3 pb-3 bio">
+                            <p class="mb-0 fs-12 text-capitalize">You can Fool All Of The People Some Of The Time, And
+                                Some of the people all
+                                of the
+                                time, But You Can't Fool All Of The People All Of The Time.</p>
+                        </div>
+                        <div class="reacts d-flex justify-content-between align-items-center mt-2">
+                            <a href="#" class="fs-14">
+                                <i class="fa-regular fa-heart"></i>
+                                <span>1.8k</span>
+                            </a>
+                            <a href="#" class="fs-14">
+                                <i class="fa-regular fa-comments"></i>
+                                <span>500</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="social bg-white p-3 rounded">
+                        <div class="mb-3">
+                            <h4 class="fw-bold">Social Media Stats</h4>
+                        </div>
+                        <div class="box twitter d-flex align-items-center mb-1">
+                            <div class="icon d-flex justify-content-center align-items-center text-white">
+                                <i class="fa-brands fa-twitter"></i>
+                            </div>
+                            <div class="text px-2 d-flex justify-content-between align-items-center">
+                                <span class="fs-14">90k followers</span>
+                                <a href="#" class="fs-12 p-1 rounded text-white">Follow</a>
+                            </div>
+                        </div>
+                        <div class="box facebook d-flex align-items-center mb-1">
+                            <div class="icon text-white d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </div>
+                            <div class="text px-2 d-flex justify-content-between align-items-center">
+                                <span class="fs-14">2M Like</span>
+                                <a href="#" class="fs-12 p-1 rounded text-white">Like</a>
+                            </div>
+                        </div>
+                        <div class="box youtube d-flex align-items-center mb-1">
+                            <div class="icon text-white d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-youtube"></i>
+                            </div>
+                            <div class="text px-2 d-flex justify-content-between align-items-center">
+                                <span class="fs-14">1M Subs</span>
+                                <a href="#" class="fs-12 p-1 rounded text-white">Subscribe</a>
+                            </div>
+                        </div>
+                        <div class="box linkedin d-flex align-items-center">
+                            <div class="icon text-white d-flex justify-content-center align-items-center">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </div>
+                            <div class="text px-2 d-flex justify-content-between align-items-center">
+                                <span class="fs-14">70k followers</span>
+                                <a href="#" class="fs-12 p-1 rounded text-white">Follow</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="table bg-white m-2 p-3 rounded">
+                    <div class="mb-3">
+                        <h4 class="fw-bold">Projects</h4>
+                    </div>
+                    <table class="border-0 fs-14">
+                        <thead>
+                            <tr>
+                                <td>Name</td>
+                                <td>Finish Date</td>
+                                <td>Client</td>
+                                <td>Price</td>
+                                <td>Team</td>
+                                <td>Status</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ministry Wikepedia</td>
+                                <td>10 May 2022</td>
+                                <td>Ministry</td>
+                                <td>$5300</td>
+                                <td>
+                                    <img src="images/avatar01.png" alt="avatar" class="img-fluid rounded-pill">
+                                    <img src="images/avatar02.jpg" alt="avatar" class="img-fluid rounded-pill">
+                                    <img src="images/avatar03.png" alt="avatar" class="img-fluid rounded-pill">
+                                    <img src="images/avatar04.png" alt="avatar" class="img-fluid rounded-pill">
+                                </td>
+                                <td><span class="p-1 yellow btn text-white fs-11">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td>Elzero Shop</td>
+                                <td>12 Oct 2021</td>
+                                <td>Elzero Company</td>
+                                <td>$1500</td>
+                                <td>
+                                    <img src="images/avatar01.png" alt="avatar" class="img-fluid rounded-pill">
+                                    <img src="images/avatar02.jpg" alt="avatar" class="img-fluid rounded-pill">
+                                    <img src="images/avatar03.png" alt="avatar" class="img-fluid rounded-pill">
+                                    <img src="images/avatar04.png" alt="avatar" class="img-fluid rounded-pill">
+                                </td>
+                                <td><span class="p-1 blue btn text-white fs-11">In Progress</span></td>
+                            </tr>
+                            <tr>
+                                <td>Bouba App</td>
+                                <td>05 Sep 2021</td>
+                                <td>Bouba</td>
+                                <td>$800</td>
+                                <td>
+                                    <img src="images/avatar01.png" alt="avatar" class="img-fluid rounded-pill">
+                                    <img src="images/avatar02.jpg" alt="avatar" class="img-fluid rounded-pill">
+                                    <img src="images/avatar03.png" alt="avatar" class="img-fluid rounded-pill">
+                                    <img src="images/avatar04.png" alt="avatar" class="img-fluid rounded-pill">
+                                </td>
+                                <td><span class="p-1 green btn text-white fs-11">completed</span></td>
+                            </tr>
+                            <tr>
+                                <td>Mahmoud Website</td>
+                                <td>22 May 2021</td>
+                                <td>Mahmoud</td>
+                                <td>$600</td>
+                                <td>
+                                    <img src="images/avatar01.png" alt="avatar" class="img-fluid rounded-pill">
+                                    <img src="images/avatar02.jpg" alt="avatar" class="img-fluid rounded-pill">
+                                    <img src="images/avatar03.png" alt="avatar" class="img-fluid rounded-pill">
+                                    <img src="images/avatar04.png" alt="avatar" class="img-fluid rounded-pill">
+                                </td>
+                                <td><span class="p-1 green btn text-white fs-11">Completed</span></td>
+                            </tr>
+                            <tr>
+                                <td>Sayed Website</td>
+                                <td>24 May 2021</td>
+                                <td>Sayed</td>
+                                <td>$300</td>
+                                <td>
+                                    <img src="images/avatar01.png" alt="avatar" class="img-fluid rounded-pill">
+                                    <img src="images/avatar02.jpg" alt="avatar" class="img-fluid rounded-pill">
+                                    <img src="images/avatar03.png" alt="avatar" class="img-fluid rounded-pill">
+                                    <img src="images/avatar04.png" alt="avatar" class="img-fluid rounded-pill">
+                                </td>
+                                <td><span class="p-1 red btn text-white fs-11">Rejected</span></td>
+                            </tr>
+                            <tr>
+                                <td>Arena Application</td>
+                                <td>01 Mar 2021</td>
+                                <td>Arena Company</td>
+                                <td>$2600</td>
+                                <td>
+                                    <img src="images/avatar01.png" alt="avatar" class="img-fluid rounded-pill">
+                                    <img src="images/avatar02.jpg" alt="avatar" class="img-fluid rounded-pill">
+                                    <img src="images/avatar03.png" alt="avatar" class="img-fluid rounded-pill">
+                                    <img src="images/avatar04.png" alt="avatar" class="img-fluid rounded-pill">
+                                </td>
+                                <td><span class="p-1 green btn text-white fs-11">Completed</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- End Main  -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+
+
+
+<!-- Main -->
+
+<!-- Main -->
